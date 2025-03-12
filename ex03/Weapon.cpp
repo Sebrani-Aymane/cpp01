@@ -10,7 +10,7 @@ const std::string& Weapon::getType()
     return type;
 }
 
-void Weapon:: setType(std::string typee)
+void Weapon:: setType(std::string name)
 {
-    type = typee;
+    type = name;
 }
